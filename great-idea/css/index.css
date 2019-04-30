@@ -72,7 +72,7 @@ header {
 	margin-bottom: 20px;
 }
 header nav{
-	display: inline-block;
+	display: flex-wrap;
 }
 header nav a {
 	margin: 0 65px 0 0;
@@ -80,19 +80,20 @@ header nav a {
 	text-decoration: none;
 }
 header img {
-	display: inline-block;
-	margin-left: 95px
+	display: flex-end;
 }
-.leftHead, .head img {
-	display: inline-block;
+.services-header-img {
+	display: flex;
+	width: 100%;
 }
-.leftHead h1 {
+
+.Services h1{
 	color: black;
-	font-size: 80px;
-	text-align: center;
+	font-size: 30px;
 }
-.leftHead {
-	margin: 135px
+.services p {
+	width: 100%
+	bottom-border: 2px solid black;
 }
 .leftHead a {
 	padding: 5px 37px;
