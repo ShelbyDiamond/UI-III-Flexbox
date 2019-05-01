@@ -81,11 +81,11 @@ header nav a {
 .services-header-img {
 	width: 100%;
 }
-.Services h1{
+.s-Services h1{
 	color: black;
 	font-size: 30px;
 }
-.Services {
+.s-Services {
     width: 100%;
 	color: black;
 	border-bottom: 1px solid black;
@@ -146,4 +146,46 @@ footer {
     display: block;
     margin: 40px auto;
 	text-align: center;
+}
+.head {
+	display: flex;
+	padding-bottom: 40px;
+}
+.leftHead h1 {
+	color: black;
+	font-size: 80px;
+	text-align: center;
+}
+.leftHead {
+	margin: 50px 200px 0 50px;
+}
+.leftHead a {
+	padding: 5px 37px;
+	border: 2px solid black;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	left: 90px
+}
+.head {
+	border-bottom: 1px solid black;
+}
+.T-swizzle, .B-swizzle {
+	display: flex;
+}
+.Features, .About {
+    width: 49%;
+    color: black;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.middle-img {
+	width: 100%;
+	margin-bottom: 35px;
+}
+.Services, .Product, .Vision {
+    width: 33%;
+    color: black;
+	margin-bottom: 40px;
+	margin-top: 30px;
 }
