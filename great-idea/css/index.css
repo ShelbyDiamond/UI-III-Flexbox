@@ -66,24 +66,19 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
 	background: white;
-	Width: 100%;
+	Width: 950px;
+	margin: 0 auto;
 }
 header {
 	margin-bottom: 20px;
-}
-header nav{
-	display: flex-wrap;
+	display: flex;
 }
 header nav a {
 	margin: 0 65px 0 0;
 	color: lightgray;
 	text-decoration: none;
 }
-header img {
-	display: flex-end;
-}
 .services-header-img {
-	display: flex;
 	width: 100%;
 }
 .Services h1{
@@ -91,23 +86,60 @@ header img {
 	font-size: 30px;
 }
 .Services {
-    display: flex;
-    width: 33%;
+    width: 100%;
 	color: black;
 	border-bottom: 1px solid black;
+	padding-bottom: 30px;
 	margin-bottom: 40px;
 	margin-top: 30px;
 }
-.DigitalDesign {
+.allDaBoxes {
 	display: flex;
+	flex-flow: row wrap;
+}
+.digitalDesign {
 	border: 1px solid black;
 	padding: 30px;
-
+	width: 433px;
+	margin: 21px;
+	background: lightgray;
+}
+.digitalDesign a {
+	Border: 1px solid black;
+	background: white;
+	padding: 5px 25px;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+}
+.digitalDesign p{
+	padding-bottom: 35px;
 }
 .imdone {
 	color: black;
 	border-top: 2px solid black;
 	padding-top: 30px;
+}
+.everything {
+	border-top: 2px solid black;
+	margin: 5px; 
+	padding: 35px 0;
+	display: flex;
+}
+.facts, .services-info-img {
+	width: 450px;
+}
+.facts {
+	margin: 30px;
+}
+.facts p {
+	padding-bottom: 30px;
+	width: 410px;
+}
+ul { 
+	list-style: square;
+	line-height: 30px;
+	margin-left: 15px;
 }
 footer {
     color: black;
